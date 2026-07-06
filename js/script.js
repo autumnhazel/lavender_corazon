@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateFooterYear();
     
     // Setup contact forms for specific pages
-    setupContactForm('contact-form-autumn', 'Autumn de León', 'contact@lavendercorazon.com');
+    setupContactForm('contact-form-autumn', 'Autumn de León', 'autumnal@lavendercorazon.com');
     setupContactForm('contact-form-rune', 'Rune de León', 'rune@lavendercorazon.com'); // Example email
 });
 
