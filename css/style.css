@@ -510,3 +510,105 @@ footer a:hover { color: var(--color-primary-accent-hover); border-bottom-color: 
   clip: rect(0,0,0,0);
   white-space: nowrap;
 }
+
+/* ==========================================================================
+   Publications & Library Catalogue Styles
+   ========================================================================== */
+
+.publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-unit) * 4);
+    margin-top: calc(var(--spacing-unit) * 1.5);
+}
+
+.publication-entry {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: calc(var(--spacing-unit) * 2.5);
+    align-items: start;
+    padding-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.publication-entry:not(:last-child) {
+    border-bottom: 1px dashed var(--color-border);
+}
+
+/* Left Column: Metadata & Details */
+.pub-metadata h3 {
+    font-size: 1.75rem;
+    margin-bottom: calc(var(--spacing-unit) * 0.75);
+}
+
+.catalogue-specs {
+    list-style: none;
+    padding: 0;
+    margin-bottom: var(--spacing-unit);
+    background-color: var(--color-background-alt);
+    border-left: 2px solid var(--color-lavender-medium);
+    padding: calc(var(--spacing-unit) * 0.75) var(--spacing-unit);
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+}
+
+.catalogue-specs li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.catalogue-specs li:last-child {
+    margin-bottom: 0;
+}
+
+.pub-description p {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-unit);
+}
+
+/* Right Column: Book/Print Asset Display */
+.pub-media {
+    width: 100%;
+}
+
+.pub-media img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid var(--color-border-light);
+    padding: 6px;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow-medium);
+    border-radius: 2px;
+}
+
+/* Permanent Collections Layout */
+.collections-grid {
+    list-style: none;
+    padding: 0;
+    margin-top: var(--spacing-unit);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: calc(var(--spacing-unit) * 0.75);
+}
+
+.collections-grid li {
+    font-family: var(--font-secondary);
+    font-size: 1.1rem;
+    padding: calc(var(--spacing-unit) * 0.5) 0;
+    border-bottom: 1px solid var(--color-border-light);
+    position: relative;
+}
+
+/* Responsive Overrides for Catalog View */
+@media (max-width: 800px) {
+    .publication-entry {
+        grid-template-columns: 1fr;
+        gap: calc(var(--spacing-unit) * 2);
+    }
+    
+    .pub-media {
+        grid-row: 1; /* Moves visual asset above metadata on small screens */
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
