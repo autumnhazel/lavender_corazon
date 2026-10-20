@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autumn de León | Lavender Corazón Press</title>
-    <meta name="description" content="Autumn de León is a poet and letterpress printer exploring queer identity, analog publishing, and community storytelling through Lavender Corazón Press.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=2025-08-22-2">
-    <link rel="icon" href="assets/icon.png" type="image/png" />
-    <script type="application/ld+json">
-    {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Autumn de León | Lavender Corazón Press</title>
+  <meta name="description" content="Autumn de León is a poet and letterpress printer exploring queer identity, analog publishing, and community storytelling through Lavender Corazón Press." />
+  <link rel="icon" href="assets/icon.png" type="image/png" />
+  <script type="application/ld+json">
+  {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Autumn de León",
@@ -26,261 +22,81 @@
       "https://www.linkedin.com/in/autumndeleon/",
       "https://www.instagram.com/itsautumnhazel"
     ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"ItemList",
-  "name":"Essays by Autumn de León",
-  "itemListElement":[
-    {
-      "@type":"BlogPosting",
-      "position":1,
-      "headline":"An Archive",
-      "description":"An artist's book bearing trans healthcare experiences while questioning the archive.",
-      "url":"https://open.substack.com/pub/lavendercorazon/p/an-archive?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-      "image":"https://lavendercorazon.com/assets/AnArchive.gif",
-      "author":{
-        "@type":"Person",
-        "name":"Autumn de León",
-        "url":"https://lavendercorazon.com/autumn.html"
-      },
-      "publisher":{
-        "@type":"Organization",
-        "name":"Lavender Corazón Press",
-        "url":"https://lavendercorazon.com/"
-      }
-    },
-    {
-      "@type":"BlogPosting",
-      "position":2,
-      "headline":"Fragments of Spring",
-      "description":"On my first chapbook.",
-      "url":"https://open.substack.com/pub/lavendercorazon/p/fragments-of-spring?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-      "image":"https://substack-post-media.s3.amazonaws.com/public/images/0e6fb880-fccb-4185-afa3-70c77d9e3913_4032x3024.png",
-      "author":{
-        "@type":"Person",
-        "name":"Autumn de León"
-      },
-      "publisher":{
-        "@type":"Organization",
-        "name":"Lavender Corazón Press"
-      }
-    },
-    {
-      "@type":"BlogPosting",
-      "position":3,
-      "headline":"Some Marginalia",
-      "description":"While finishing my English degree at UC Berkeley, I took a course that shifted the way I view the printed page.",
-      "url":"https://open.substack.com/pub/lavendercorazon/p/some-marginalia?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-      "image":"https://substack-post-media.s3.amazonaws.com/public/images/09893a7e-9e86-4514-8867-a3c4dc20a4e8_2956x2897.png",
-      "author":{
-        "@type":"Person",
-        "name":"Autumn de León"
-      },
-      "publisher":{
-        "@type":"Organization",
-        "name":"Lavender Corazón Press"
-      }
-    }
-  ]
-}
-</script>
+  }
+  </script>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body data-theme="light" class="portfolio-page autumn-page">
+<body>
+  <header class="site-nav">
+    <div class="site-nav__inner">
+      <a class="site-nav__brand" href="/">Lavender Corazón</a>
+      <button class="site-nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="site-nav__list" id="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/autumn" class="is-active" aria-current="page">Autumn de León</a></li>
+        <li><a href="/rune">Rune de León</a></li>
+        <li><a href="/publications">Publications</a></li>
+      </ul>
+    </div>
+  </header>
 
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-
-    <header id="main-header" role="banner">
-        <div class="header-content">
-            <div class="logo">
-                <a href="/index">Lavender Corazón</a>
-            </div>
-            <nav role="navigation" aria-label="Main Navigation">
-                <button id="menu-toggle" aria-expanded="false" aria-controls="main-nav">
-                    <span class="sr-only">Toggle Menu</span>
-                    <span class="hamburger-bar"></span>
-                    <span class="hamburger-bar"></span>
-                    <span class="hamburger-bar"></span>
-                </button>
-                <ul id="main-nav">
-                    <li><a href="/index">About the Press</a></li>
-                    <li><a href="/autumn" class="current-page">Autumn de León</a></li>
-                    <li><a href="/rune">Rune de León</a></li>
-                    <li><a href="/publications">Publications</a></li>
-                    <li><a href="/index#contact-press">Contact</a></li>
-                </ul>
-            </nav>
+  <main>
+    <section class="hero">
+      <div class="container container--wide hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__name">Autumn de León</h1>
+          <p class="hero__meta">Artist-Printer</p>
         </div>
-    </header>
+        <figure class="hero__portrait">
+          <img src="assets/portraits/autumn-profile.png" alt="Image of Autumn de León" width="320" height="320" />
+        </figure>
+      </div>
+    </section>
 
-    <main id="main-content" class="content-column" role="main">
-        <section id="portfolio-intro-autumn" class="portfolio-intro" aria-labelledby="portfolio-autumn-heading">
-            <h1 id="portfolio-autumn-heading">Autumn de León</h1>
-            <p class="portfolio-tagline">Artist-Printer</p>
-        </section>
+    <div class="container container--wide bio" id="about">
+      <p>Autumn de León (she/they) is an artist-printer whose work blends traditional craft with meditations on trans embodiment. Raised in the Bay Area and educated in English at UC Berkeley, her experience with letterpress began as an undergraduate, where she produced her first edition as a collaborative classroom project. Since then, Autumn has interned with The CODEX Foundation; published <i>Fragments of Spring,</i> a chapbook exploring transition as an element of nature; and is a member of The Real Lead Saloon, co-founded by Peter Koch and Susan Filter, where she conceptualizes, prints, and binds fine editions of poetry.</p>
+      <p>Her first artist’s book under the Lavender Corazón imprint, <i>An Archive</i>, preserves contemporary experiences of transgender patients alongside dated diagnostic questions, inviting readers to question how access to gender affirming care has been altered in recent years. Fourteen cards, printed letterpress, are housed in a roughly constructed institutional records box made of nonarchival chipboard; the box will degrade while the experiences and memories within remain. Original anonymized interviews were conducted throughout 2025, leading to completion of the edition of 15 during a residency at In Cahoots in 2026.</p>
+      <p><a href="https://autumndeleon.com">You can visit Autumn's personal portfolio by clicking here.</a></p>
+    </div>
 
-                <!-- after #portfolio-intro-rune, before #about-rune -->
-        <div class="profile-bridge">
-          <div class="profile-avatar">
-            <img src="/assets/portraits/autumn-profile.png" alt="Image of Autumn de León">
-          </div>
-        </div>
+    <div class="container container--wide cv">
+      <section class="cv-section" id="entries">
+        <h2>Updates</h2>
+        <ul class="cv-plain-list">
+          <li><a href="https://lavendercorazon.substack.com/p/an-archive" target="_blank" rel="noopener">An Archive</a></li>
+          <li><a href="https://lavendercorazon.substack.com/p/fragments-of-spring" target="_blank" rel="noopener">Fragments of Spring</a></li>
+          <li><a href="https://lavendercorazon.substack.com/p/some-marginalia" target="_blank" rel="noopener">Some Marginalia</a></li>
+        </ul>
+      </section>
 
+      <section class="cv-section" id="cv">
+        <h2>CV</h2>
+        <p class="cv-section__note">Click below to view Autumn de León's curriculum vitae.</p>
+        <ul class="cv-plain-list">
+          <li><a href="https://autumndeleon.com/cv" target="_blank" rel="noopener">View Autumn's CV</a></li>
+          <li><a href="https://www.linkedin.com/in/autumndeleon/" target="_blank" rel="noopener">View Autumn's LinkedIn</a></li>
+        </ul>
+      </section>
 
-        <section id="about" aria-labelledby="about-autumn-heading">
-            <h2 id="about-autumn-heading">About Autumn</h2>
-            <div class="section-content">
-                <p>
-                    Autumn de León (she/they) is an artist-printer whose work blends traditional craft with meditations on trans embodiment. Raised in the Bay Area and educated in English at UC Berkeley, her experience with letterpress began as an undergraduate, where she produced her first edition as a collaborative classroom project. Since then, Autumn has interned with The CODEX Foundation; published <i>Fragments of Spring,</i> a chapbook exploring transition as an element of nature; and is a member of The Real Lead Saloon, co-founded by Peter Koch and Susan Filter, where she conceptualizes, prints, and binds fine editions of poetry.
-                </p>
-                <p> 
-                     Her first artist’s book under the Lavender Corazón imprint, <i>An Archive</i>, preserves contemporary experiences of transgender patients alongside dated diagnostic questions, inviting readers to question how access to gender affirming care has been altered in recent years. Fourteen cards, printed letterpress, are housed in a roughly constructed institutional records box made of nonarchival chipboard; the box will degrade while the experiences and memories within remain. Original anonymized interviews were conducted throughout 2025, leading to completion of the edition of 15 during a residency at In Cahoots in 2026.
-                </p>
-                <p> <a href="https://autumndeleon.com">You can visit Autumn's personal portfolio by clicking here.</p>
-                <span class="visually-hidden">Autumn de Leon</span>
-            </div>
-        </section>
+      <section class="cv-section" id="contact">
+        <h2>Contact Autumn</h2>
+        <p>For inquiries related to Autumn de León's work, please email <a href="mailto:autumnal@lavendercorazon.com">autumnal@lavendercorazon.com</a>.</p>
+      </section>
+    </div>
+  </main>
 
-        <section id="entries" aria-labelledby="entries-autumn-heading">
-            <h2 id="entries-autumn-heading">Updates</h2>
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <p>&copy; 2026 Autumn and Rune de León</p>
+    </div>
+  </footer>
 
-            <div class="section-content entries-container">
-
-                <article class="entry-preview">
-                    <a href="https://open.substack.com/pub/lavendercorazon/p/an-archive?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer">
-                        <img
-                            src="/assets/AnArchive.gif"
-                            alt="Artist's book An Archive by Autumn de León"
-                            loading="lazy"
-                            width="320"
-                            height="240">
-                    </a>
-
-                    <div class="entry-content">
-                        <h3>
-                            <a href="https://open.substack.com/pub/lavendercorazon/p/an-archive?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer">
-                                An Archive
-                            </a>
-                        </h3>
-
-                        <p class="excerpt">
-                            An artist's book bearing trans healthcare experiences while questioning the archive.
-                        </p>
-
-                        <a class="read-more"
-                           href="https://lavendercorazon.substack.com/p/an-archive">
-                            Read Essay →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="entry-preview">
-                    <a href="https://lavendercorazon.substack.com/p/fragments-of-spring">
-                        <img
-                            src="https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e6fb880-fccb-4185-afa3-70c77d9e3913_4032x3024.png"
-                            alt="Fragments of Spring chapbook"
-                            loading="lazy"
-                            width="320"
-                            height="213">
-                    </a>
-
-                    <div class="entry-content">
-                        <h3>
-                            <a href="https://open.substack.com/pub/lavendercorazon/p/fragments-of-spring?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer">
-                                Fragments of Spring
-                            </a>
-                        </h3>
-
-                        <p class="excerpt">
-                            On my first chapbook.
-                        </p>
-
-                        <a class="read-more"
-                           href="https://open.substack.com/pub/lavendercorazon/p/fragments-of-spring?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer">
-                            Read Essay →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="entry-preview">
-                    <a href="https://lavendercorazon.substack.com/p/some-marginalia">
-                        <img
-                            src="https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09893a7e-9e86-4514-8867-a3c4dc20a4e8_2956x2897.png"
-                            alt="Some Marginalia"
-                            loading="lazy"
-                            width="320"
-                            height="213">
-                    </a>
-
-                    <div class="entry-content">
-                        <h3>
-                            <a href="https://open.substack.com/pub/lavendercorazon/p/some-marginalia?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer">
-                                Some Marginalia
-                            </a>
-                        </h3>
-
-                        <p class="excerpt">
-                            While finishing my English degree at UC Berkeley, I took a course that shifted the way I view the printed page and marginal notes.
-                        </p>
-
-                        <a class="read-more"
-                           href="https://open.substack.com/pub/lavendercorazon/p/some-marginalia?r=2yljj1&utm_campaign=post-expanded-share&utm_medium=post%20viewer">
-                            Read Essay →
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <section id="cv" aria-labelledby="cv-autumn-heading">
-            <h2 id="cv-autumn-heading">CV</h2>
-            <div class="section-content">
-                <p>
-                    Click below to view Autumn de León's curriculum vitae.
-                </p>
-                <a href="https://autumndeleon.com/cv" target="_blank" rel="noopener noreferrer" class="button">
-                    View Autumn's CV <span class="sr-only">(opens in a new tab)</span>
-                </a>
-                <a href="https://www.linkedin.com/in/autumndeleon/" target="_blank" rel="noopener noreferrer" class="button">
-                View Autumn's LinkedIn <span class="sr-only">(opens in a new tab)</span>
-                </a>
-                </div>
-        </section>
-
-        <section id="contact" aria-labelledby="contact-autumn-heading">
-            <h2 id="contact-autumn-heading">Contact Autumn</h2>
-            <div class="section-content">
-                <p>For inquiries related to Autumn de León's work, please use the form below or email directly at <a href="mailto:autumnal@lavendercorazon.com">autumnal@lavendercorazon.com</a>.</p>
-                <form id="contact-form-autumn" class="contact-form" novalidate>
-                    <div class="form-group">
-                        <label for="name-autumn">Name</label>
-                        <input type="text" id="name-autumn" name="name" required aria-required="true">
-                        <span class="error-message" aria-live="polite"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="email-autumn">Email</label>
-                        <input type="email" id="email-autumn" name="email" required aria-required="true">
-                        <span class="error-message" aria-live="polite"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="message-autumn">Message</label>
-                        <textarea id="message-autumn" name="message" rows="6" required aria-required="true"></textarea>
-                        <span class="error-message" aria-live="polite"></span>
-                    </div>
-                    <button type="submit" class="button">Send Message to Autumn</button>
-                </form>
-                <div id="form-feedback-autumn" class="form-feedback" aria-live="assertive" style="display:none;"></div>
-            </div>
-        </section>
-    </main>
-
-    <footer role="contentinfo">
-        <p><a href="index.html">Lavender Corazón Press</a> | &copy; <span id="current-year"></span> Autumn and Rune de León. All rights reserved.</p>
-    </footer>
-
-    <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

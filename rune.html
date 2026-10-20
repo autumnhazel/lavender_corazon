@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rune de León | Lavender Corazón Press</title>
-    <meta name="description" content="Rune de León is a Latine artist and printmaker whose work with Lavender Corazón blends visual narrative with cultural iconography.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=2025-08-22-2">
-    <link rel="icon" href="assets/icon.png" type="image/png" />
-    <script type="application/ld+json">
-    {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rune de León | Lavender Corazón Press</title>
+  <meta name="description" content="Rune de León is a Latine artist and printmaker whose work with Lavender Corazón blends visual narrative with cultural iconography." />
+  <link rel="icon" href="assets/icon.png" type="image/png" />
+  <script type="application/ld+json">
+  {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Rune de León",
@@ -24,223 +20,70 @@
     "sameAs": [
       "https://www.linkedin.com/in/rune-soto-ponce-71a25b262/"
     ]
-}
-</script>
+  }
+  </script>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body data-theme="light" class="portfolio-page rune-de-leon-page">
+<body>
+  <header class="site-nav">
+    <div class="site-nav__inner">
+      <a class="site-nav__brand" href="/">Lavender Corazón</a>
+      <button class="site-nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="site-nav__list" id="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/autumn">Autumn de León</a></li>
+        <li><a href="/rune" class="is-active" aria-current="page">Rune de León</a></li>
+        <li><a href="/publications">Publications</a></li>
+      </ul>
+    </div>
+  </header>
 
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-
-    <header id="main-header" role="banner">
-        <div class="header-content">
-            <div class="logo">
-                <a href="/index">Lavender Corazón</a>
-            </div>
-            <nav role="navigation" aria-label="Main Navigation">
-                <button id="menu-toggle" aria-expanded="false" aria-controls="main-nav">
-                    <span class="sr-only">Toggle Menu</span>
-                    <span class="hamburger-bar"></span>
-                    <span class="hamburger-bar"></span>
-                    <span class="hamburger-bar"></span>
-                </button>
-                <ul id="main-nav">
-                    <li><a href="/index">About the Press</a></li>
-                    <li><a href="/autumn">Autumn de León</a></li>
-                    <li><a href="/rune" class="current-page">Rune de León</a></li>
-                    <li><a href="/publications">Publications</a></li>
-                    <li><a href="/index#contact-press">Contact</a></li>
-                </ul>
-            </nav>
+  <main>
+    <section class="hero">
+      <div class="container container--wide hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__name">Rune de León</h1>
+          <p class="hero__meta">Illustrator &amp; Printer</p>
         </div>
-    </header>
+        <figure class="hero__portrait">
+          <img src="assets/portraits/rune-profile.jpeg" alt="Image of Rune de León" width="320" height="320" />
+        </figure>
+      </div>
+    </section>
 
-    <main id="main-content" class="content-column" role="main">
-        <section id="portfolio-intro-rune" class="portfolio-intro" aria-labelledby="portfolio-rune-heading">
-            <h1 id="portfolio-rune-heading">Rune de León</h1>
-            <p class="portfolio-tagline">Photographer & Illustrator</p>
-        </section>
+    <div class="container container--wide bio" id="about-rune">
+      <p>Rune de León explores Latina/o identity through illustration and photography. Based in the San Francisco Bay Area, he is a student of Chicano Studies at UC Berkeley, and is the illustrator of <i>Lorena and the Truth of the Lagoon</i> (2024), forthcoming from Eastwind Books.</p>
+      <p>Through the Lavender Corazón Press, Rune continues to explore themes of belonging and joy using printmaking and illustration. His work draws from a wide range of influences and techniques, embracing a playful aesthetic to explore life between cultures.</p>
+    </div>
 
-                <!-- after #portfolio-intro-rune, before #about-rune -->
-        <div class="profile-bridge">
-          <div class="profile-avatar">
-            <img src="/assets/portraits/rune-profile.jpeg" alt="Image of Rune de León">
-          </div>
-        </div>
+    <div class="container container--wide cv">
+      <section class="cv-section" id="cv-rune">
+        <h2>CV / Bio</h2>
+        <p class="cv-section__note">Click below to view Rune de León's curriculum vitae.</p>
+        <ul class="cv-plain-list">
+          <li><a href="assets/rune_deleon_cv.pdf" target="_blank" rel="noopener">Download Rune's CV</a></li>
+        </ul>
+      </section>
 
+      <section class="cv-section" id="contact-rune">
+        <h2>Contact Rune</h2>
+        <p>For inquiries related to Rune de León's work, please email <a href="mailto:rune@lavendercorazon.com">rune@lavendercorazon.com</a>.</p>
+      </section>
+    </div>
+  </main>
 
-        <section id="about-rune" aria-labelledby="about-rune-heading">
-            <h2 id="about-rune-heading">About Rune</h2>
-            <div class="section-content">
-                <p>
-                    Rune de León explores Latina/o identity through illustration and photography. Based in the San Francisco Bay Area, he is a student of Chicano Studies at UC Berkeley, and is the illustrator of <i>Lorena and the Truth of the Lagoon</i> (2024), forthcoming from Eastwind Books.
-                </p>
-                <p>
-                    Through the Lavender Corazón Press, Rune continues to explore themes of belonging and joy using printmaking and illustration. His work draws from a wide range of influences and techniques, embracing a playful aesthetic to explore life between cultures.
-                </p> <span class="visually-hidden">Rune de Leon</span>
-                </div>
-        </section>
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <p>&copy; 2026 Autumn and Rune de León</p>
+    </div>
+  </footer>
 
-        <section aria-labelledby="portfolio-heading" class="series-carousel">
-          <h2 id="portfolio-heading">Photography Portfolio</h2>
-          <div class="snap-row">
-
-            <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio1.png" alt="A figure runs through a field.">
-                <span class="card-caption">Flight</span>
-              </button>
-            </article>
-
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio2.png" alt="A mountain range cast in golden light">
-                <span class="card-caption">Gold</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio3.png" alt="A person steps between rocks in a stream">
-                <span class="card-caption">Step</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio4.png" alt="Walking along a log">
-                <span class="card-caption">Autumn Walk</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio5.png" alt="A blurry figure stands amidst the forest">
-                <span class="card-caption">Uncertainty</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio6.png" alt="A window reveals a lantern outside">
-                <span class="card-caption">Light</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio7.png" alt="Leaves in autumn">
-                <span class="card-caption">Golden Boughs</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio8.png" alt="A figure sits on a log">
-                <span class="card-caption">Thought</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio9.png" alt="A figure holds a stem amidst a golden forest in autumn.">
-                <span class="card-caption">Life & Death</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio10.png" alt="A figure bathes in a stream">
-                <span class="card-caption">Bathe</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio11.png" alt="A figure sits as deer walk behind them.">
-                <span class="card-caption">Deer</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio12.jpeg" alt="A streetlight illuminates a puddle in Mexico City">
-                <span class="card-caption">Midnight</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio13.jpeg" alt="Strawberry horchata">
-                <span class="card-caption">Refreshed</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio14.jpeg" alt="A pool ball is hit">
-                <span class="card-caption">Club</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio15.jpeg" alt="">
-                <span class="card-caption">Collage</span>
-              </button>
-            </article>
-             <article class="card">
-              <button class="card-hero">
-                <img src="assets/runeportfolio/portfolio16.jpeg" alt="">
-                <span class="card-caption">Play</span>
-              </button>
-            </article>
-
-          </div>
-        </section>
-
-        <section id="cv-rune" aria-labelledby="cv-rune-heading">
-            <h2 id="cv-rune-heading">CV / Bio</h2>
-            <div class="section-content">
-                <p>
-                    Click below to view Rune de León's curriculum vitae.
-                </p>
-                <a href="assets/rune_deleon_cv.pdf" target="_blank" rel="noopener noreferrer" class="button">
-                    Download Rune's CV <span class="sr-only">(opens in a new tab)</span>
-                </a>
-                </div>
-        </section>
-
-        <section id="contact-rune" aria-labelledby="contact-rune-heading">
-            <h2 id="contact-rune-heading">Contact Rune</h2>
-            <div class="section-content">
-                <p>For inquiries related to Rune de León's work, please use the form below or email directly at <a href="mailto:rune@lavendercorazon.com">rune@lavendercorazon.com</a>.</p>
-                <form id="contact-form-rune" class="contact-form" novalidate>
-                    <div class="form-group">
-                        <label for="name-rune">Name</label>
-                        <input type="text" id="name-rune" name="name" required aria-required="true">
-                        <span class="error-message" aria-live="polite"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="email-rune">Email</label>
-                        <input type="email" id="email-rune" name="email" required aria-required="true">
-                        <span class="error-message" aria-live="polite"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="message-rune">Message</label>
-                        <textarea id="message-rune" name="message" rows="6" required aria-required="true"></textarea>
-                        <span class="error-message" aria-live="polite"></span>
-                    </div>
-                    <button type="submit" class="button">Send Message to Rune</button>
-                </form>
-                <div id="form-feedback-rune" class="form-feedback" aria-live="assertive" style="display:none;"></div>
-            </div>
-        </section>
-    </main>
-
-    <footer role="contentinfo">
-        <p><a href="index.html">Lavender Corazón Press</a> | &copy; <span id="current-year"></span> Autumn and Rune de León. All rights reserved.</p>
-    </footer>
-
-    <dialog id="portfolio-lightbox" aria-labelledby="lb-title">
-  <button class="lb-close" aria-label="Close (Esc)">×</button>
-  <div class="lb-inner">
-    <button class="lb-nav lb-prev" aria-label="Previous image">‹</button>
-    <figure class="lb-figure">
-      <img id="lb-img" alt="">
-      <figcaption id="lb-cap"></figcaption>
-    </figure>
-    <button class="lb-nav lb-next" aria-label="Next image">›</button>
-  </div>
-</dialog>
-
-
-    <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

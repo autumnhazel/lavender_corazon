@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavender Corazón Press</title>
-    <meta name="description" content="Lavender Corazón is a California-based queer and Latine-led letterpress project by Autumn and Rune de León, exploring poetry, printmaking, and community-based publishing through handmade chapbooks and literary ephemera.">
-    <meta name="keywords" content="Lavender Corazon, Lavender Corazón, queer letterpress, Latine art, artist books, letterpress poetry, small press, fine press">
-    <link rel="icon" href="assets/icon.png" type="image/png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="canonical" href="https://lavendercorazon.com/" />
-    <script type="application/ld+json">
-    {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lavender Corazón Press</title>
+  <meta name="description" content="Lavender Corazón is a California-based queer and Latine-led letterpress project by Autumn and Rune de León, exploring poetry, printmaking, and community-based publishing through handmade chapbooks and literary ephemera." />
+  <link rel="icon" href="assets/icon.png" type="image/png" />
+  <script type="application/ld+json">
+  {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Lavender Corazón Press",
@@ -21,102 +15,54 @@
     "description": "A California-based queer and Latine-led letterpress project exploring poetry, printmaking, and community-based publishing.",
     "email": "autumnal@lavendercorazon.com",
     "founder": [
-        { "@type": "Person", "name": "Autumn de León", "url": "https://lavendercorazon.com/autumn.html" },
-        { "@type": "Person", "name": "Rune de León", "url": "https://lavendercorazon.com/rune.html" }
-     ]
-}
-</script>
-    </head>
+      { "@type": "Person", "name": "Autumn de León", "url": "https://lavendercorazon.com/autumn.html" },
+      { "@type": "Person", "name": "Rune de León", "url": "https://lavendercorazon.com/rune.html" }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="canonical" href="https://lavendercorazon.com/" />
+</head>
+<body class="page-home">
+  <header class="site-nav">
+    <div class="site-nav__inner">
+      <a class="site-nav__brand" href="/">Lavender Corazón</a>
+      <button class="site-nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="site-nav__list" id="nav-list">
+        <li><a href="/" class="is-active" aria-current="page">Home</a></li>
+        <li><a href="/autumn">Autumn de León</a></li>
+        <li><a href="/rune">Rune de León</a></li>
+        <li><a href="/publications">Publications</a></li>
+      </ul>
+    </div>
+  </header>
 
-<body data-theme="light" class="lavender-corazon-home">
-
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-
-    <header id="main-header" role="banner">
-        <div class="header-content">
-            <div class="logo">
-                <a href="/index">Lavender Corazón</a>
-            </div>
-            <nav role="navigation" aria-label="Main Navigation">
-                <button id="menu-toggle" aria-expanded="false" aria-controls="main-nav">
-                    <span class="sr-only">Toggle Menu</span>
-                    <span class="hamburger-bar"></span>
-                    <span class="hamburger-bar"></span>
-                    <span class="hamburger-bar"></span>
-                </button>
-                <ul id="main-nav">
-                    <li><a href="/index#about-press">About the Press</a></li>
-                    <li><a href="/autumn">Autumn de León</a></li>
-                    <li><a href="/rune">Rune de León</a></li>
-                    <li><a href="/publications">Publications</a></li>
-                    <li><a href="/index#contact-press">Contact</a></li>
-                    </ul>
-            </nav>
+  <main>
+    <section class="hero" id="hero-press">
+      <div class="container container--wide hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__name">Lavender Corazón</h1>
+          <p class="hero__meta">A Queer &amp; Latine Press</p>
+          <p class="hero__tagline" id="about-press">Lavender Corazón Press is a small press rooted in queer and Latine experiences. We make experimental artists' books using techniques and aesthetics drawn from fine press traditions. As a printing method, letterpress has long been inaccessible to our communities owing to costly equipment, specialized apprenticeship, and limited studio access. We use the medium to challenge historical notions about whose voices are accepted as worthy of literary weight.</p>
+          <p class="hero__meta" id="contact-press">For inquiries about our work, collaborations, or other questions, please reach out.</p>
+          <p class="hero__meta">Email: <a href="mailto:autumnal@lavendercorazon.com">autumnal@lavendercorazon.com</a></p>
         </div>
-    </header>
+      </div>
+    </section>
+  </main>
 
-    <main id="main-content" class="content-column" role="main">
-        <section id="hero-press" aria-labelledby="hero-press-heading">
-             <div class="section-content text-center">
-                <h1 id="hero-press-heading" class="site-title-main">Lavender Corazón</h1>
-                <p class="tagline">A Queer & Latine Press</p>
-            </div>
-        </section>
+  <footer class="site-footer">
+    <div class="container container--wide">
+      <p>&copy; 2026 Autumn and Rune de León</p>
+    </div>
+  </footer>
 
-        <section id="about-press" aria-labelledby="about-press-heading">
-            <h2 id="about-press-heading">About The Press</h2>
-            <div class="section-content">
-                <p>
-                    Lavender Corazón Press is a small press rooted in queer and Latine experiences. We make experimental artists' books using techniques and aesthetics drawn from fine press traditions. As a printing method, letterpress has long been inaccessible to our communities owing to costly equipment, specialized apprenticeship, and limited studio access. We use the medium to challenge historical notions about whose voices are accepted as worthy of literary weight.
-                </p>
-                <span class="visually-hidden">Rune de Leon, Autumn de Leon, Lavender Corazon</span>
-            </div>
-        </section>
-
-        <section id="featured-portfolios" aria-labelledby="featured-portfolios-heading">
-            <h2 id="featured-portfolios-heading">Artist Portfolios</h2>
-            <div class="section-content portfolio-links">
-                <div class="portfolio-link-card">
-                    <h3>Autumn de León</h3>
-                    <p>Artist-Printer.</p>
-                    <a href="autumn.html" class="button">View Autumn's Portfolio</a>
-                </div>
-                <div class="portfolio-link-card">
-                    <h3>Rune de León</h3>
-                    <p>Illustrator & Photographer.</p>
-                    <a href="rune.html" class="button">View Rune's Portfolio</a>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contact-press" aria-labelledby="contact-press-heading">
-            <h2 id="contact-press-heading">Contact Us</h2>
-            <div class="section-content">
-                <p>
-                    For inquiries about our work, collaborations, or other questions, please reach out.
-                </p>
-                <p>Email: <a href="mailto:autumnal@lavendercorazon.com">autumnal@lavendercorazon.com</a></p>
-                </div>
-        </section>
-    </main>
-
-    <footer role="contentinfo">
-        <p><a href="index.html">Lavender Corazón Press</a> | &copy; <span id="current-year"></span> Autumn and Rune de León. All rights reserved.</p>
-    </footer>
-
-    <dialog id="portfolio-lightbox" aria-labelledby="lb-title">
-  <button class="lb-close" aria-label="Close (Esc)">×</button>
-  <div class="lb-inner">
-    <button class="lb-nav lb-prev" aria-label="Previous image">‹</button>
-    <figure class="lb-figure">
-      <img id="lb-img" alt="">
-      <figcaption id="lb-cap"></figcaption>
-    </figure>
-    <button class="lb-nav lb-next" aria-label="Next image">›</button>
-  </div>
-</dialog>
-
-
-    <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
